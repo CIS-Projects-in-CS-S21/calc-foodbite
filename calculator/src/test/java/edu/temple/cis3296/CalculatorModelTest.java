@@ -34,7 +34,10 @@ public class CalculatorModelTest {
 		assertEquals(2.0, calc.operationDiv(2.0, 1.0), 0.1);
 	} 
 
-	
+	@Test
+	public void shouldAddSixPlusThree(){
+		assertEquals(9, calc.operationAdd(6.0, 3.0), 0.1);
+	}
 
 
 }
