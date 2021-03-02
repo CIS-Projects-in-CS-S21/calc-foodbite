@@ -39,5 +39,8 @@ public class CalculatorModelTest {
 		assertEquals(9, calc.operationAdd(6.0, 3.0), 0.1);
 	}
 
-
+	@Test
+	public void shouldSubtFiveAndTwo() {
+		assertEquals(3, calc.operationSubst(5.0, 2.0), 0.1);
+	}
 }
