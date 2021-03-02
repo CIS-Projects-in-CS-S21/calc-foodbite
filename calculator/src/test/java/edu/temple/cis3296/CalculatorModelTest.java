@@ -43,4 +43,7 @@ public class CalculatorModelTest {
 	public void shouldSubtFiveAndTwo() {
 		assertEquals(3, calc.operationSubst(5.0, 2.0), 0.1);
 	}
+
+	@Test
+	public void shouldMultiSevenAndTwo() {assertEquals(14, calc.operationMult(7.0, 2.0), 0.1);}
 }
